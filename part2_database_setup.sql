@@ -1,4 +1,4 @@
-E-Commerce Database Schema - PART 2: Product Variations and Inventory
+-- E-Commerce Database Schema - PART 2: Product Variations and Inventory
 -- 
 -- Author: Power Learn Project Group 214 Cohort 7 - Team Member 2
 -- Description: Product variations, sizes, colors, and inventory management
