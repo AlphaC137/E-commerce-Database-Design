@@ -55,10 +55,10 @@ This repository contains a comprehensive database schema for an e-commerce platf
 
 2. Execute the SQL files in the following order:
    ```
-   mysql -u alphac137 -p < 01_database_setup.sql
-   mysql -u alphac137 -p < 02_product_attributes.sql
-   mysql -u alphac137 -p < 03_product_variations.sql
-   mysql -u alphac137 -p < 04_sample_data.sql
+   mysql -u alphac137 -p < part1_database_setup.sql
+   mysql -u alphac137 -p < part2_database_setup.sql
+   mysql -u alphac137 -p < part3_database_setup.sql
+   mysql -u alphac137 -p < part4_database_setup.sql
    ```
 
    Alternatively, you can use the combined script:
@@ -75,10 +75,10 @@ This repository contains a comprehensive database schema for an e-commerce platf
 
 ```
 E-commerce-Database-Design/
-├── 01_database_setup.sql      # Database setup and core product structure
-├── 02_product_attributes.sql  # Product attributes system
-├── 03_product_variations.sql  # Product variations and inventory
-├── 04_sample_data.sql         # Sample data and testing
+├── part1_database_setup.sql      # Database setup and core product structure
+├── part2_database_setup.sql  # Product attributes system
+├── part3_database_setup.sql  # Product variations and inventory
+├── part4_database_setup.sql         # Sample data and testing
 ├── ecommerce_complete.sql     # Complete SQL script (combined)
 ├── doc/
 │   └── ERD.png      # Entity-Relationship Diagram image
